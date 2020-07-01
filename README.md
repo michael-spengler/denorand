@@ -25,8 +25,8 @@ console.log(bytes)
 
 - Install wasm-pack
 
-    cargo install wasm-pack
+      cargo install wasm-pack
 
 - Build
 
-    wasm-pack build --target web --release
+      wasm-pack build --target web --release
