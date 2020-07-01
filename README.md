@@ -4,10 +4,10 @@ WebAssembly powered random TypedArray generation for Deno, written in Rust.
 
 ## Usage
 
-    deno cache -r <url>/mod.ts
+    deno cache -r https://deno.land/x/gh:hazae41:denorand/mod.ts
 
 ```typescript
-import * as rand from "<url>/mod.ts"
+import * as rand from "https://deno.land/x/gh:hazae41:denorand/mod.ts"
 
 // Generate a random Uint8Array[16]
 const bytes = rand.u8(16);
@@ -18,8 +18,8 @@ console.log(bytes)
 
 ## Test 
 
-    deno cache -r <url>/test.ts
-    deno run --allow-net <url>/test.ts
+    deno cache -r https://deno.land/x/gh:hazae41:denorand/test.ts
+    deno run --allow-net https://deno.land/x/gh:hazae41:denorand/test.ts
 
 ## Building
 
