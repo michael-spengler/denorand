@@ -1,0 +1,10 @@
+{
+    "name": "denorand",
+    "description": "WebAssembly powered random TypedArray generation for Deno, written in Rust.",
+    "homepage": "https://github.com/hazae41/denorand",
+    "files": [
+    "./**/*.ts",
+    "README.md"
+    ],
+    "entry": "./mod.ts"
+}
